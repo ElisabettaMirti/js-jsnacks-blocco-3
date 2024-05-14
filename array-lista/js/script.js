@@ -24,10 +24,26 @@ const fruttaTavolo = fruttaFrigo.push('pesca');
 
 console.log(fruttaFrigo);
 
+
+// creo una costante con valore false
 //creo un ciclo for per controllare se tra gli elementi c'è il cocomero
 //al suo interno metto la condizione if in base al risultato
-//stampo il risultato in console
+
+
+let fruttaPerCocktail = false;
 
 for ( i=0 ; i < fruttaFrigo.lenght ; i++) {
-    if
+    if (fruttaFrigo[i] = 'cocomero'){
+        fruttaPerCocktail = true;
+    } else {
+        fruttaPerCocktail = false;
+    }
+}
+
+//stampo il risultato in console in base alla ricerca del ciclo for
+
+if (fruttaPerCocktail = true) {
+    console.log('Trovato! Devo solo preparare il cocktail.')
+} else {
+    console.log('Oh no, devo uscire a comprare il cocomero!')
 }
