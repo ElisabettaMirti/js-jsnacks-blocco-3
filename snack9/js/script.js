@@ -4,13 +4,15 @@
 
 const oddArray = [];
 
-let userNumber;
+let userNumber = '';
 
-while (oddArray.lenght < 6) {
+while (oddArray.lenght = 5) {
     userNumber = Number.parseInt(prompt('Type a number'));
     if (userNumber % 2 === 1) {
         oddArray.push(userNumber);
     }
+
+    oddArray.lenght < 6
 }
 
 console.log(oddArray);
