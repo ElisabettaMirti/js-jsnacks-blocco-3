@@ -3,11 +3,16 @@
 
 const arrayX = [];
 
-let N;
+
 let somma = 0;
 
-while (somma >= 50) {
-    N = Number.parseInt(prompt('Type a number'));
-    arrayX.push(N);
+while (somma < 50) {
+    let N = Number.parseInt(prompt('Type a number'), 10);
+
+    if (Number.isNaN(N) !== true){
+        arrayX.push(N);
     somma += N;
+    }
 }
+
+console.log(arrayX, somma);
