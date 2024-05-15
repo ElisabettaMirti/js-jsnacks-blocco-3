@@ -17,3 +17,10 @@ if (arrayA.lenght > arrayB.lenght) {
     console.log('Hanno la stessa lunghezza')
 }
 
+console.log(arrayLungo, arrayCorto);
+
+while (arrayCorto.lenght = arrayLungo.lenght) {
+    arrayCorto.push(Math.floor(Math.random() * 100)+ 1);
+}
+
+console.log(arrayLungo, arrayCorto);
