@@ -12,3 +12,5 @@ while (oddArray.lenght < 6) {
         oddArray.push(userNumber);
     }
 }
+
+console.log(oddArray);
