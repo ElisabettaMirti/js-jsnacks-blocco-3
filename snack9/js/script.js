@@ -4,10 +4,10 @@
 
 const oddArray = [];
 
-let userNumber = '';
+
 
 while (oddArray.lenght = 5) {
-    userNumber = Number.parseInt(prompt('Type a number'));
+    let userNumber = Number.parseInt(prompt('Type a number'), 10);
     if (userNumber % 2 === 1) {
         oddArray.push(userNumber);
     }
