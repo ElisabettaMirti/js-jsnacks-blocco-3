@@ -2,7 +2,7 @@
 
 const userTime = Number.parseInt(prompt('Quanti secondi ti servono?'));
 
-setTimeout (timeIsOver, userTime)
+setTimeout (timeIsOver, userTime * 1000);
 
 function timeIsOver() {
     alert('Fine tempo!');
