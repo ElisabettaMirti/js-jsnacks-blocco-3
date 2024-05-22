@@ -10,5 +10,5 @@ let palla = {
 
 console.log(palla);
 
-palla.peso = Number.parseInt(prompt('Scrivi il peso della palla'));
+palla.peso = Number.parseInt(prompt('Scrivi il peso della palla'), 10);
 console.log(palla);
