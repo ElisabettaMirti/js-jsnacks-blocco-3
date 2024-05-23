@@ -18,7 +18,7 @@ const fruttaFrigo = [ 'banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarin
 
 //aggiungo la pesca nell'array con .push
 
-const fruttaTavolo = fruttaFrigo.push('pesca');
+fruttaFrigo.push('pesca');
 
 //stampo per verificare
 

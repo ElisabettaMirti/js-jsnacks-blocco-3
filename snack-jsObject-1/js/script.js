@@ -83,7 +83,7 @@ const Automobili = [
 
 
 const aBenzina = Automobili.filter((auto) => {
-    if (auto.alimentazione = "benzina"){
+    if (auto.alimentazione === "benzina"){
         return true;
     }
 });
