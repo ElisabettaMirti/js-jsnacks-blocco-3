@@ -69,12 +69,17 @@ console.log(sommaTotale);
 let sommaMaggioriOtto = 0;
 let sommaMinoriOtto = 0;
 
+let maggioriOtto = [];
+let minoriOtto = [];
+
 listaZucchine.filter((zucchina) => {
     if (zucchina.lunghezza >= 8){
+        maggioriOtto.push(zucchina);
         sommaMaggioriOtto += zucchina.peso;
     } else {
+        minoriOtto.push(zucchina);
         sommaMinoriOtto += zucchina.peso;
     }
 });
 
-console.log(sommaMaggioriOtto, sommaMinoriOtto);
+console.log(maggioriOtto, minoriOtto, sommaMaggioriOtto, sommaMinoriOtto);
