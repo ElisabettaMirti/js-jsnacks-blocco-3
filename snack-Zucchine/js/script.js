@@ -58,10 +58,23 @@ const listaZucchine = [
 
 
 let sommaTotale = 0;
+
 listaZucchine.filter((zucchina) => {
-    
     sommaTotale += zucchina.peso;
     return sommaTotale;
 })
 
 console.log(sommaTotale);
+
+let sommaMaggioriOtto = 0;
+let sommaMinoriOtto = 0;
+
+listaZucchine.filter((zucchina) => {
+    if (zucchina.lunghezza >= 8){
+        sommaMaggioriOtto += zucchina.peso;
+    } else {
+        sommaMinoriOtto += zucchina.peso;
+    }
+});
+
+console.log(sommaMaggioriOtto, sommaMinoriOtto);
